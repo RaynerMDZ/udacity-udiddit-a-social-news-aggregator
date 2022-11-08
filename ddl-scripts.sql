@@ -11,6 +11,13 @@
 
 -- DDL Queries
 
+DROP TABLE IF EXISTS
+    users,
+    topic,
+    post,
+    comment,
+    vote;
+
 CREATE TABLE users (
     id BIGSERIAL PRIMARY KEY,
     username VARCHAR(25) UNIQUE NOT NULL,
@@ -78,5 +85,3 @@ CREATE TABLE comment (
         FOREIGN KEY (comment_id)
             REFERENCES comment ON DELETE CASCADE
 );
-
--- DML Queries
