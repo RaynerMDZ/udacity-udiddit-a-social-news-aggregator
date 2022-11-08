@@ -2,11 +2,8 @@
 
  Author: Rayner Mendez
  Udacity Web Developer Nanodegree
- Udiddit, Social News Aggregator
+ Udiddit, A Social News Aggregator
 
- I like to use singulars to name tables.
- This case is an exception because user is a reserved
- keyword within the postgresql space.
  */
 
 -- DML Queries
